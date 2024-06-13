@@ -1,0 +1,44 @@
+.facebook-nav {
+    background-color: #fff;
+    width: 98vw;
+    border-radius: 25px;
+}
+
+.facebook-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.facebook-nav .left,
+.facebook-nav .center,
+.facebook-nav .right {
+    display: flex;
+    align-items: center;
+}
+
+.facebook-nav .left {
+    flex: 1;
+    
+}
+
+.facebook-nav .left li {
+    padding-left: 15px;
+}
+
+.facebook-nav .center {
+    flex: 1;
+    justify-content: center;
+}
+
+
+.facebook-nav .right {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.facebook-nav .right li {
+    padding-left: 15px;
+}

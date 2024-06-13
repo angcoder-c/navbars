@@ -1,0 +1,13 @@
+#root {
+    font-family: Verdana;
+    background-color: #15202F;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Opcional: ajusta la altura según tus necesidades */
+    text-align: center;
+}

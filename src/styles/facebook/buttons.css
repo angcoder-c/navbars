@@ -1,0 +1,26 @@
+.button-container-img {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #E4E6EB;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.button-container-img svg {
+    padding: 25%;
+    fill: black;
+}
+
+.button-container-img:active{
+    background-color: #DFE8F2;
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+
+.button-container-img:active svg {
+    fill: #2376D0;
+}

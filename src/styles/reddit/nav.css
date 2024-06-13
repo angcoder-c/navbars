@@ -1,0 +1,139 @@
+.reddit-nav {
+    background-color: #0E1113;
+    width: 98vw;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.reddit-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.reddit-nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reddit-left,
+.reddit-center,
+.reddit-right {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.reddit-left {
+    margin-left: 5%;
+}
+
+.reddit-left img {
+    margin-top: 5%;
+}
+
+.reddit-center {
+    justify-content: center;
+}
+
+.reddit-right {
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+/* Search input styling */
+.reddit-search-icon svg {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    height: 25px;
+    width: 25px;
+    fill: #ffffff;
+}
+
+.reddit-search-input {
+    padding-left: 55px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    height: 40px;
+    width: 100%;
+    font-size: 1.3rem;
+    outline: none;
+    background-color: #2A3236;
+    color: #8BA2AD;
+}
+
+.reddit-search-input::placeholder {
+    color: #8BA2AD;
+}
+
+.reddit-nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.reddit-nav-buttons:hover {
+    background-color: #333D42;
+}
+
+.reddit-nav-buttons svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+}
+
+.reddit-nav-buttons-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 60px;
+    padding: 0 20px;
+    color: white;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.reddit-nav-buttons-text span {
+    font-size: large;
+}
+
+.reddit-nav-buttons-text:hover {
+    background-color: #333D42;
+}
+
+.reddit-user-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.reddit-user-pic img {
+    width: 50px;
+    border-radius: 100%;
+    margin-top: 8%;
+}
+
+.reddit-user-pic:hover {
+    background-color: #333D42;
+}
+
+.reddit-logo img {
+    height: 60px;
+}

@@ -1,0 +1,25 @@
+.tab-button-container {
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    border-bottom: 8px solid transparent;
+    transition: 0.3s;
+}
+
+.tab-button-container > svg {
+    width: 45px;
+    margin: auto;
+    fill: #727478;
+}
+
+.active {
+    transition: 0.3s;
+    border-bottom: 8px solid #0866FF;
+    fill: #0866FF;
+}
+
+.active svg {
+    fill: #0866FF;
+}

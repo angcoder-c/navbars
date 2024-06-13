@@ -1,0 +1,26 @@
+.button-container-text {
+    cursor: pointer;
+    width: 170px;
+    height: 45px;
+    border-radius: 100px;
+    background-color: #E4E6EB;
+    text-align: center;
+    padding: 5px 8px;
+    font-size: 1.3rem;
+    color: black;
+    transition: 0.3s;
+}
+
+.button-container-text span {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.button-container-text:active{
+    background-color: #DFE8F2;
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+
+.button-container-text:active span {
+    color: #2376D0;
+}

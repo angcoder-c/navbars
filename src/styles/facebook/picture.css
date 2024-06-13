@@ -1,0 +1,6 @@
+.picture {
+    cursor: pointer;
+    width: 60px;
+    border-radius: 100%;
+    margin-right: 15px;
+}

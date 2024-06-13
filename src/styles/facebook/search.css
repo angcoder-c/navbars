@@ -1,0 +1,26 @@
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.search-icon svg {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    height: 30px;
+    width: 30px;
+    fill: #727478;
+}
+
+.search-input {
+    padding-left: 55px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    height: 100%;
+    font-size: 1.3rem;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: #F0F2F5;
+}
