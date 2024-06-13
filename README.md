@@ -1,5 +1,5 @@
 # Navbars
-
+![gif](https://github.com/angcoder-c/navbars/blob/main/src/assets/images/navbars.gif)
 This project is a React-based application where various popular navigation bars (navbars) have been recreated. The goal is to replicate the look and feel of navigation bars from different social media platforms and websites.
 
 ## Overview
